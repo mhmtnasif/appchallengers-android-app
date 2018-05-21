@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1.0"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="0.2"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fragment_setting_profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            app:civ_border_color="#F5F5F5"
+            app:civ_border_width="3dp" />
+
+        <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+            android:id="@+id/fragment_setting_profile_change_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/fragment_setting_profile_picture_change"
+            android:layout_margin="10dp"
+            android:textColor="#FD5739"
+            android:textColorLink="#FD5739"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fragment_profil_setting_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+         <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/fragment_setting_profile_name"
+             android:layout_marginLeft="4dp"
+             android:textColor="@color/edittext_text_color"
+             android:textSize="14sp"
+             />
+        <EditText
+            android:id="@+id/fragment_setting_profile_name_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/edittext_text_color"
+            >
+        </EditText>
+        <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_setting_profile_country"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/edittext_text_color"
+            android:textSize="14sp"
+            />
+        <EditText
+            android:id="@+id/fragment_setting_profile_country_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/edittext_text_color"
+            />
+
+        <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_setting_profile_e_mail_addres"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/edittext_text_color"
+            android:textSize="14sp"
+            />
+        <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+            android:id="@+id/fragment_setting_profile_email_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_setting_profile_email"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/info_text_color"
+            />
+
+
+        <com.appchallengers.appchallengers.helpers.component.ButtonSFUITextRegularComponent
+            android:id="@+id/setting_fragment_up_date_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:spinning_bar_width="4dp"
+            android:layout_marginTop="20dp"
+            app:spinning_bar_color="#FFF"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg"
+            android:text="@string/fragment_setting_profile_up_date"
+            android:textColor="#FFFEFE"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

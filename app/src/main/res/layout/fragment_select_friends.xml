@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    tools:context="com.appchallengers.appchallengers.fragments.camera.SelectFriendsFragment">
+
+    <LinearLayout
+        android:id="@+id/select_friends_fragment_properties_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+            android:id="@+id/select_friends_fragment_show_all_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_select_friends_show_the_selected"
+            android:textSize="15dp" />
+
+        <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+            android:id="@+id/select_friends_fragment_select_all_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:text="@string/fragment_select_friends_select_all"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/select_friends_fragment_properties_ll"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <com.appchallengers.appchallengers.helpers.component.EditTextComponent
+            android:id="@+id/select_friends_fragment_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="@string/fragment_select_friends_who_do_you_want_to_challenge"
+            android:maxLength="254"
+            android:padding="10dp"
+            android:textColor="@color/edittext_text_color"
+            android:textSize="13dp" />
+
+        <com.victor.loading.rotate.RotateLoading
+            android:id="@+id/select_friends_fragment_rotateloading"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            app:loading_color="#FD5739"
+            app:loading_width="2dp" />
+        <LinearLayout
+            android:id="@+id/user_feed_sad_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle_bg_primary_color"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_sentiment_dissatisfied_white_24dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Üzgünüm sayfanız henüz boş."
+                    android:textColor="@color/edittext_text_color"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/select_Friends_fragment_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <com.appchallengers.appchallengers.helpers.component.ButtonSFUITextRegularComponent
+        android:id="@+id/select_friends_fragment_challenge_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button_corner_radius_bg"
+        android:text="@string/fragment_select_friends_contunie_button_text"
+        android:textColor="@color/white" />
+</RelativeLayout>

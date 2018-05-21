@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.appchallengers.appchallengers.fragments.show_setting_user_activity_fragment.SettingPasswordChangeFragment">
+
+   <LinearLayout
+       android:id="@+id/setting_fragment_email_ll"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_margin="20dp"
+       >
+       <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/fragment_setting_email_change_old_e_mail_text"
+           android:layout_marginLeft="4dp"
+           android:textColor="@color/edittext_text_color"
+           android:textSize="14sp"
+           />
+
+       <EditText
+           android:id="@+id/fragment_setting_email_old_edittext"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:inputType="textEmailAddress"
+           android:backgroundTint="@color/edittext_text_color"
+           >
+       </EditText>
+       <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/fragment_setting_email_change_new_e_mail"
+           android:layout_marginLeft="4dp"
+           android:textColor="@color/edittext_text_color"
+           android:textSize="14sp"
+           />
+
+       <EditText
+           android:id="@+id/fragment_setting_email_new_edittext"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:inputType="textEmailAddress"
+           android:backgroundTint="@color/edittext_text_color"
+           >
+       </EditText>
+       <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/fragment_setting_email_change_again_new_e_mail_text"
+           android:layout_marginLeft="4dp"
+           android:textColor="@color/edittext_text_color"
+           android:textSize="14sp"
+           />
+       <EditText
+           android:id="@+id/fragment_setting_email_new_again_edittext"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"
+           android:inputType="textEmailAddress"
+           android:backgroundTint="@color/edittext_text_color"
+           >
+       </EditText>
+
+       <com.appchallengers.appchallengers.helpers.component.ButtonSFUITextRegularComponent
+           android:id="@+id/setting_fragment_email_up_date_button"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           app:spinning_bar_width="4dp"
+           android:layout_marginTop="20dp"
+           app:spinning_bar_color="#FFF"
+           android:gravity="center"
+           android:layout_gravity="center"
+           android:background="@drawable/button_bg"
+           android:text="@string/fragment_setting_email_change_up_date_button_text"
+           android:textColor="#FFFEFE"
+           android:textSize="15sp" />
+
+   </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/custom_alert_dialog_linerlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/custom_alert_dialog_background_shape_oval"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            >
+
+            <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+                android:id="@+id/custom_alert_dialog_image_provider_galery"
+                android:layout_width="279dp"
+                android:layout_height="match_parent"
+                android:text="@string/custom_alert_dialog_select_image_provider_galery_text"
+                android:textColor="#969FAA"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/ic_image_black_24dp"
+                android:drawablePadding="10dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/edittext_text_color"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            >
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <com.appchallengers.appchallengers.helpers.component.SFUITextRegularTextViewComponent
+                android:id="@+id/custom_alert_dialog_image_provider_camera"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/custom_alet_dialog_selcet_image_provider_camera_text"
+                android:textColor="#969FAA"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/ic_camera_alt_black_24dp"
+                android:drawablePadding="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

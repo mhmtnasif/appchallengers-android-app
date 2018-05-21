@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">AppChallengers</string>
+    <string name="error_250">Bu e-mail zaten kullanılmakta.</string>
+    <string name="error_290">Beklenmeyen bir hata oluştu, lütfen tekrar deneyiniz.</string>
+    <string name="error_255">Lütfen eski parolanızı doğru giriniz.</string>
+    <string name="error_256">Eski E-mail adresiniz eşleşmiyor.</string>
+    <string name="error_257">Yeni E-mail adresiniz zaten kullanılmakta!</string>
+    <string name="error_251">Yanlış Email ve Şifre Kombinasyonu.</string>
+    <string name="info_252">Postanıza bir doğrulama bağlantısı gönderildi. Lütfen bağlantıya tıklayıp doğrulma yapınız.</string>
+    <string name="info_150">HeaderLine alanını boş bırakamazsınız.</string>
+    <string name="info_151">Lütfen internet bağlantısını kontrol ediniz.</string>
+    <string name="info_152">En az bir arkadaş seçimi yapmalısınız.</string>
+    <string name="info_153">Bu challenge için zaten bir paylaşımınız mevcut.</string>
+    <string name="error_300">Servere Bağlanılamadı</string>
+    <string name="error_356">Yeni parolalarınız eşleşmiyor.</string>
+    <string name="error_358">Yeni parola alanını boş geçemezsiniz.</string>
+    <string name="error_357">Yeni e-mail adresleriniz eşleşmiyor.</string>
+    <string name="error_253">Posta addresiniz henüz doğrulanmamış.</string>
+    <string name="error_254">Email gönderme işlmi başarısız.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //deneme
+    <string name="permission_request">Uygulamanın kamera ve ses kayıt edebilmesi için izinlere ihtiyacı vardır.</string>
+    <string name="camera_error">Cihazınızın kamerası bu video kaydetmek için uygun değil</string>
+    <string name="title_activity_show_setting_user">ShowSettingUserActivity</string>
+    <string name="title_activity_show_search">ShowSearchActivity</string>
+    <string name="bottom_navigation_main_feed">Akış</string>
+    <string name="bottom_navigation_main_challenge">Challenge</string>
+    <string name="bottom_navigation_main_trends">Popüler</string>
+    <string name="activity_main_search_hint">Ara</string>
+    <string name="activity_show_profil_challenge">Challenge</string>
+    <string name="activity_show_profil_accepted_challenge">Kabul Edilenler</string>
+    <string name="activity_show_profil_friends">Arkadaşlar</string>
+    <string name="activity_show_setting_user_setting">Ayarlar</string>
+    <string name="custom_alert_dialog_select_image_provider_galery_text">Galery</string>
+    <string name="custom_alet_dialog_selcet_image_provider_camera_text">Kamera</string>
+    <string name="custom_alert_dialog_select_profile_new_photo_load_text">Yeni fotoğraf yükle</string>
+    <string name="custom_alert_dialog_select_profile_photo_delete_text">Fotoğrafı kaldır</string>
+    <string name="flow_video_cardview_like">beğen</string>
+    <string name="flow_video_cardview_number_like">0 beğeni</string>
+    <string name="fragment_bottom_sheet_dialog_headline">Lütfen bir konu başlığı giriniz!</string>
+    <string name="fragment_bottom_sheet_dialog_button_challenge">Challenge</string>
+    <string name="fragment_confirim_email_message">Mail adresinizi onaylamanız gerekmektedir. E-mail adresinize bir doğrulama postası gönderdik. Lütfen gelen kutusunu ve spam kutusunu kontrol ediniz</string>
+    <string name="fragment_confirim_email_verified_button_text">Onaylandım</string>
+    <string name="fragment_confirim_email_send_me_again_button_text">Tekrar gönder</string>
+    <string name="fragment_intro_appchallengers">AppChallengers</string>
+    <string name="fragment_intro_create_an_account_button_text">Hesap Oluştur</string>
+    <string name="fragment_intro_i_already_have_an_account_button_text">Zaten bir hesabım var!</string>
+    <string name="fragment_login_text">Giriş Yap</string>
+    <string name="fragment_challenge_detail_latest">En Son</string>
+    <string name="fragment_challenge_detail_popular">Popüler</string>
+    <string name="fragment_login_email_hint">E-mail</string>
+    <string name="fragment_login_password_hint">Şifre</string>
+    <string name="fragment_login_button_text">Giriş Yap</string>
+    <string name="fragment_login_forgot_my_password_text">Şifremi Unuttum!</string>
+    <string name="fragment_select_friends_show_the_selected">Seçilenleri Göster</string>
+    <string name="fragment_select_friends_select_all">Tümünü Seç</string>
+    <string name="fragment_select_friends_unselect_all">Tümünü Seçilenleri Kaldır</string>
+    <string name="fragment_select_friends_show_all">Tümünü Gör</string>
+    <string name="fragment_select_friends_who_do_you_want_to_challenge">Kime challenge atmak istiyorsun?</string>
+    <string name="fragment_select_friends_contunie_button_text">Devam Et</string>
+    <string name="fragment_setting_email_change_old_e_mail_text">Eski E-mail Adresiniz</string>
+    <string name="fragment_setting_email_change_new_e_mail">Yeni E-mail Adresiniz</string>
+    <string name="fragment_setting_email_change_again_new_e_mail_text">Yeni E-mail Adresini Tekrarla</string>
+    <string name="fragment_setting_email_change_up_date_button_text">Güncelle</string>
+    <string name="fragment_setting_password_change_old_password">Eski Şifre</string>
+    <string name="fragment_setting_password_change_new_password">Yeni Şifre</string>
+    <string name="fragment_setting_password_change_again_new_password">Yeni Şifreyi Tekrarla </string>
+    <string name="fragment_setting_password_change_up_date_button_text">Güncelle</string>
+    <string name="fragment_setting_profile_picture_change">Fotoğrafımı Değiştir</string>
+    <string name="fragment_setting_profile_name">Ad Soyad</string>
+    <string name="fragment_setting_profile_country">Ülke</string>
+    <string name="fragment_setting_profile_e_mail_addres">E-mail</string>
+    <string name="fragment_setting_profile_email">E-mail</string>
+    <string name="fragment_setting_profile_up_date">Güncelle</string>
+    <string name="fragment_sing_up_text">Kayıt Ol</string>
+    <string name="fragment_sing_up_porgile_picture">Profil Resmi</string>
+    <string name="fragment_sing_up_full_name">Ad Soyad</string>
+    <string name="fragment_sing_up_email">E-mail</string>
+    <string name="fragment_sing_up_password">Şifre</string>
+    <string name="fragment_sing_up_country">Ülke</string>
+    <string name="fragment_sing_up_button_text">Kayıt Ol</string>
+    <string name="fragment_sing_up_by_using_appchallenger_you_will_accept">Appchllengers uygulamasını kullanarak</string>
+    <string name="fragment_sing_up_terms_and_cookie_policy">Koşulları ve Çerez Politikasını Kabul Etmiş Olursunuz</string>
+    <string name="fragment_splash_copyright_2018">Copyright © 2018</string>
+    <string name="fragment_video_player_challenge">Challenge</string>
+    <string name="item_empty_page_message_text">Üzgünüm sayfanız henüz boş.</string>
+    <string name="notification_toast_error">Hata!</string>
+    <string name="fragment_show_profil_activity_challengers">Challengelar</string>
+    <string name="fragment_show_profil_activity_accept">Kabul Edilenler</string>
+    <string name="fragment_show_profil_activity_friend">Arkadaşlar</string>
+    <string name="activities_internet_control_message">Üzgünüm, internete bağlı değilsiniz!</string>
+    <string name="utils_empty_space">Boş Alanlar Mevcut</string>
+    <string name="utils_invaild_email">E-mail Adresiniz Uygun Değil</string>
+
+
+</resources>

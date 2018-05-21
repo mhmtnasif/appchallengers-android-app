@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.appchallengers.appchallengers.fragments.show_user_activity_fragment.UserAcceptedChallengesFragment">
+    <com.victor.loading.rotate.RotateLoading
+        android:id="@+id/fragment_popular_detail_Challenge_rotateloading"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        app:loading_color="#FD5739"
+        app:loading_width="2dp" />
+
+    <im.ene.toro.widget.Container
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/player_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

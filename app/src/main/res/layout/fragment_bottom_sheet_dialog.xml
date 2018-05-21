@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/dialogplus_card_shadow"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:gravity="center">
+        <com.appchallengers.appchallengers.helpers.component.EditTextComponent
+            android:id="@+id/bottom_sheet_dialog_fragment_header_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:drawablePadding="10dp"
+            android:maxLength="30"
+            android:hint="@string/fragment_bottom_sheet_dialog_headline"
+            android:padding="15dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/edittext_text_color"
+            android:textSize="13dp" />
+        <com.appchallengers.appchallengers.helpers.component.ButtonSFUITextRegularComponent
+            android:id="@+id/bottom_sheet_dialog_fragment_challenge_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_corner_radius_bg"
+            android:text="@string/fragment_bottom_sheet_dialog_button_challenge"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true" />
+    </LinearLayout>
+
+
+
+</FrameLayout>

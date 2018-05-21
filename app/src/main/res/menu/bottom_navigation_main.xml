@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_user_feed"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/bottom_navigation_main_feed"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_add_challenge"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_a_photo_black_24dp"
+        android:title="@string/bottom_navigation_main_challenge"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_trends_feed"
+        android:enabled="true"
+        android:icon="@drawable/ic_trending_up_black_24dp"
+        android:title="@string/bottom_navigation_main_trends"
+        app:showAsAction="ifRoom" />
+</menu>
